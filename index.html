@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEO-TOKYO // MULTI-SECTION PARALLAX</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700&family=Syncopate:wght@700&display=swap');
+        
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background-color: #040209;
+            overflow-x: hidden;
+        }
+        .font-syncopate {
+            font-family: 'Syncopate', sans-serif;
+        }
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #040209;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #2563eb;
+        }
+        .glass-card {
+            background: rgba(6, 4, 14, 0.75);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(59, 130, 246, 0.15);
+        }
+    </style>
+</head>
+<body class="text-slate-200 antialiased">
+
+    <header class="fixed top-0 left-0 w-full z-50 px-6 py-4 flex justify-between items-center bg-[#040209]/40 backdrop-blur-md border-b border-blue-500/10">
+        <div class="flex items-center space-x-3">
+            <div class="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
+            <div class="font-mono text-xs tracking-widest text-blue-400">
+                DRONE_ALTITUDE: <span id="altitude-counter">120</span> METERS
+            </div>
+        </div>
+        <div class="font-syncopate text-[9px] tracking-widest font-bold text-white">
+            GRID // CORRIDOR_04
+        </div>
+    </header>
+
+    <div id="cyber-drone" class="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-30 pointer-events-none select-none transition-transform duration-300 ease-out">
+        <div class="relative w-36 h-36 flex items-center justify-center">
+            <div class="absolute w-14 h-14 bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl shadow-[0_0_40px_rgba(59,130,246,0.5)] border border-blue-400 flex items-center justify-center font-mono text-[9px] text-white font-bold">
+                NX-26
+            </div>
+            <div class="absolute top-0 left-0 w-5 h-5 border-2 border-indigo-400 rounded-full animate-spin"></div>
+            <div class="absolute top-0 right-0 w-5 h-5 border-2 border-indigo-400 rounded-full animate-spin"></div>
+            <div class="absolute bottom-0 left-0 w-5 h-5 border-2 border-indigo-400 rounded-full animate-spin"></div>
+            <div class="absolute bottom-0 right-0 w-5 h-5 border-2 border-indigo-400 rounded-full animate-spin"></div>
+            <div class="absolute w-[1px] h-24 bg-gradient-to-b from-blue-500 to-transparent bottom-[-96px]"></div>
+        </div>
+    </div>
+
+
+    <main class="relative z-10 w-full">
+
+        <section id="section-1" class="h-screen w-full flex flex-col justify-center items-start px-6 md:px-24 relative bg-gradient-to-b from-[#06040d] to-[#090b1e] border-b border-slate-900">
+            <div class="max-w-2xl z-10 space-y-6">
+                <span class="font-mono text-xs tracking-[0.3em] text-blue-400 block uppercase">// AIRSPACE SECTOR_ALPHA</span>
+                <h1 id="main-heading" class="font-syncopate text-4xl md:text-7xl font-bold tracking-wider text-white uppercase leading-none">
+                    FLUID <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400">PARALLAX</span>
+                </h1>
+                <p class="text-slate-400 text-sm md:text-base max-w-md font-light leading-relaxed">
+                    Begin the structural descent through multi-speed interface grids. Watch background city elements slide slower than foreground panel containers.
+                </p>
+                <div class="text-xs font-mono text-blue-400/60 tracking-widest animate-pulse pt-4">
+                    SCROLL DOWN TO INITIATE DESCENT &darr;
+                </div>
+            </div>
+
+            <div class="parallax-layer absolute top-32 right-24 text-7xl opacity-10 select-none" data-velocity="0.3">🏙️</div>
+            <div class="parallax-layer absolute bottom-20 right-[15%] w-32 h-32 bg-blue-500/5 rounded-full blur-2xl" data-velocity="1.5"></div>
+        </section>
+
+
+        <section id="section-2" class="h-screen w-full flex flex-col justify-center px-6 md:px-24 relative bg-gradient-to-b from-[#090b1e] to-[#050612] border-b border-slate-900">
+            <div class="absolute inset-0 opacity-10 pointer-events-none" style="background-image: linear-gradient(rgba(59, 130, 246, 0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(59, 130, 246, 0.1) 1px, transparent 1px); background-size: 30px 30px;"></div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center w-full max-w-7xl mx-auto">
+                <div class="lg:col-span-6 space-y-6 z-10 parallax-layer" data-velocity="0.75">
+                    <div class="font-mono text-xs tracking-widest text-purple-400 uppercase">// REGION_02 // COMM_ARRAYS</div>
+                    <h2 class="font-syncopate text-2xl font-bold text-white uppercase tracking-wider">The Skyway Channels</h2>
+                    <p class="text-slate-400 text-sm md:text-base font-light leading-relaxed">
+                        As altitude decreases to 80 meters, foreground card nodes break away from the main scrolling framework to generate intense spatial depth.
+                    </p>
+                </div>
+
+                <div class="lg:col-span-6 relative h-[300px] flex items-center justify-center">
+                    <div class="parallax-layer absolute font-syncopate text-[10rem] font-bold text-slate-900/30 select-none" data-velocity="0.2">02</div>
+                    
+                    <div class="parallax-layer glass-card p-6 rounded-xl w-56 space-y-4 shadow-2xl z-20" data-velocity="1.4">
+                        <div class="text-[9px] font-mono text-blue-400 tracking-wider">TELEMETRY_FEED</div>
+                        <div class="text-2xl font-bold font-mono text-white">80.4m</div>
+                        <div class="w-full h-[2px] bg-slate-800 overflow-hidden">
+                            <div class="w-2/3 h-full bg-blue-500"></div>
+                        </div>
+                    </div>
+                    <div class="parallax-layer absolute top-0 right-16 text-4xl opacity-30 select-none" data-velocity="1.8">⚡</div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="section-3" class="h-screen w-full flex flex-col justify-center px-6 md:px-24 relative bg-gradient-to-b from-[#050612] to-[#020105] border-b border-slate-900">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center w-full max-w-7xl mx-auto">
+                <div class="lg:col-span-6 relative h-[300px] order-2 lg:order-1 flex items-center justify-center">
+                    <div class="parallax-layer absolute w-56 h-56 bg-pink-500/5 rounded-full blur-3xl" data-velocity="0.4"></div>
+                    
+                    <div class="parallax-layer glass-card p-6 rounded-xl w-60 space-y-3 shadow-2xl" data-velocity="1.3">
+                        <div class="flex justify-between items-center">
+                            <span class="w-2 h-2 bg-pink-500 rounded-full animate-ping"></span>
+                            <span class="font-mono text-[9px] text-pink-400 tracking-widest">PROPULSION // ACTIVE</span>
+                        </div>
+                        <p class="text-xs text-slate-400 font-light leading-relaxed">
+                            Dynamic thrust optimization vectors balance crosswinds within structural corridors.
+                        </p>
+                    </div>
+                    <div class="parallax-layer absolute bottom-4 right-20 text-5xl opacity-40 select-none" data-velocity="2.0">🔮</div>
+                </div>
+
+                <div class="lg:col-span-6 space-y-6 z-10 order-1 lg:order-2 parallax-layer" data-velocity="0.8">
+                    <div class="font-mono text-xs tracking-widest text-pink-400 uppercase">// REGION_03 // CORE_CHASM</div>
+                    <h2 class="font-syncopate text-2xl font-bold text-white uppercase tracking-wider">The Neon Chasm</h2>
+                    <p class="text-slate-400 text-sm md:text-base font-light leading-relaxed">
+                        At 35 meters, spatial density achieves maximum limits. Background glow matrices remain heavily anchored, while elements lift fluidly out of the backdrop.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="section-4" class="h-screen w-full flex flex-col justify-center items-center text-center px-6 relative bg-[#020105]">
+            <div class="parallax-layer z-10 max-w-xl w-full glass-card p-10 rounded-xl space-y-6" data-velocity="1">
+                <div class="font-mono text-[10px] text-emerald-400 tracking-[0.3em] uppercase animate-pulse">
+                    // CENTRAL MAINFRAME DOCK TERMINAL SECURED
+                </div>
+                <h2 class="font-syncopate text-xl md:text-2xl font-bold text-white uppercase tracking-wider">TERMINAL_ARRIVED</h2>
+                <p class="text-slate-400 text-xs font-light max-w-sm mx-auto leading-relaxed">
+                    Descent successfully logged. The multi-axis parallax computation vectors processed stably across all distinct section viewports.
+                </p>
+                <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="bg-white text-black font-mono font-bold text-xs tracking-widest px-8 py-3.5 rounded hover:bg-blue-600 hover:text-white transition-all transform hover:scale-105 pointer-events-auto">
+                    RE-LAUNCH PROTOCOL &uarr;
+                </button>
+            </div>
+
+            <div class="parallax-layer absolute bottom-12 right-16 text-6xl opacity-15 select-none" data-velocity="0.5">🏭</div>
+        </section>
+
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+
+        // --- 1. HANDLING THE INITIAL LOADING BAR SCREEN ---
+        window.addEventListener('DOMContentLoaded', () => {
+            let progress = 0;
+            const bar = document.getElementById('progress-bar');
+            const loader = document.getElementById('loader');
+            
+            const interval = setInterval(() => {
+                progress += Math.floor(Math.random() * 25) + 15;
+                if (progress >= 100) {
+                    progress = 100;
+                    clearInterval(interval);
+                    setTimeout(() => {
+                        loader.classList.add('opacity-0');
+                        setTimeout(() => loader.remove(), 600);
+                    }, 150);
+                }
+                bar.style.width = `${progress}%`;
+            }, 40);
+        });
+
+        // --- 2. GLOBAL SYSTEM ALTITUDE DISPLAY TICKER ---
+        ScrollTrigger.create({
+            trigger: "main",
+            start: "top top",
+            end: "bottom bottom",
+            scrub: true,
+            onUpdate: (self) => {
+                // Smoothly counts down altitude across the running scroll timeline
+                const count = Math.floor(120 - (self.progress * 115));
+                document.getElementById('altitude-counter').innerText = count;
+            }
+        });
+
+        // --- 3. THE PERSISTENT CYBER DRONE SPATIAL TRANSITION TIMELINE ---
+        // Loops the central object through complex states across the explicit section triggers
+        gsap.timeline({
+            scrollTrigger: {
+                trigger: "main",
+                start: "top top",
+                end: "bottom bottom",
+                scrub: 1
+            }
+        })
+        // Move across Section 2 bounds
+        .to("#cyber-drone", { x: "130%", y: "-20%", scale: 1.1, rotation: 12, ease: "none" })
+        // Move across Section 3 bounds
+        .to("#cyber-drone", { x: "-130%", y: "30%", scale: 0.8, rotation: -18, ease: "none" })
+        // Dock into final position at Section 4 block terminal area
+        .to("#cyber-drone", { x: "0%", y: "-65%", scale: 1.4, rotation: 0, ease: "none" });
+
+        // --- 4. MULTI-SPEED RELATIVE TRANSILATION CALCULATOR (VELOCITY MATRIX) ---
+        document.querySelectorAll('.parallax-layer').forEach(layer => {
+            const targetedVelocity = parseFloat(layer.getAttribute('data-velocity')) || 1;
+            
+            gsap.to(layer, {
+                // Shifting standard translate coordinates relative to window bounds
+                y: () => -(ScrollTrigger.maxScroll(window) * (targetedVelocity - 1) * 0.12),
+                ease: "none",
+                scrollTrigger: {
+                    trigger: layer,
+                    start: "top bottom",
+                    end: "bottom top",
+                    scrub: 0.4
+                }
+            });
+        });
+
+        // --- 5. REAL-TIME CURSOR LOOK-AT SYSTEM (INTERACTIVE LERP ON MOUSEMOVE) ---
+        let mouseVectorX = 0, mouseVectorY = 0;
+        let lerpVectorX = 0, lerpVectorY = 0;
+
+        window.addEventListener('mousemove', (e) => {
+            mouseVectorX = (e.clientX / window.innerWidth) - 0.5;
+            mouseVectorY = (e.clientY / window.innerHeight) - 0.5;
+        });
+
+        // Physics tick update running inside the browser graphics loop
+        function runDroneTick() {
+            requestAnimationFrame(runDroneTick);
+            
+            lerpVectorX += (mouseVectorX - lerpVectorX) * 0.08;
+            lerpVectorY += (mouseVectorY - lerpVectorY) * 0.08;
+            
+            const frameNode = document.getElementById('cyber-drone');
+            if (frameNode) {
+                frameNode.style.transform = `translate(calc(-50% + ${lerpVectorX * 45}px), calc(-50% + ${lerpVectorY * 45}px))`;
+            }
+        }
+        runDroneTick();
+
+        // Safe re-calculation mapping on layout viewport updates
+        window.addEventListener('resize', () => {
+            ScrollTrigger.refresh();
+        });
+    </script>
+</body>
+</html>
